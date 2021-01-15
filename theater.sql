@@ -1,4 +1,5 @@
 CREATE DATABASE `theater`;
+use database `theater`;
 --
 -- База данных: `theater`
 --
