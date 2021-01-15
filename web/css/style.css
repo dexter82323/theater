@@ -1575,7 +1575,7 @@ img {
 /* :: 16.0 Breadcumb Area CSS */
 .breadcumb-area {
   position: relative;
-  z-index: 10;
+
   width: 100%;
   height: 345px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1590,7 +1590,7 @@ img {
   .breadcumb-area .bradcumbContent {
     position: absolute;
     width: 392px;
-    height: 78px;
+    height: 105px;
     bottom: -39px;
     left: 50%;
     margin-left: -196px;

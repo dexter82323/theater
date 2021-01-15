@@ -356,7 +356,7 @@ use \yii\helpers\Url;
                                 <div class="single-music active">
                                     <h6>Drop that beat</h6>
                                     <audio preload="auto" controls>
-                                        <source src="audio/1.mp3">
+                                        <source src="audio/dummy-audio.mp3">
                                     </audio>
                                 </div>
 
@@ -472,8 +472,8 @@ use \yii\helpers\Url;
     <div class="music-search bg-img bg-overlay2 wow fadeInUp" data-wow-delay="300ms" style="background-image: url(img/bg-img/bg-9.jpg);">
         <!-- Content -->
         <div class="music-search-content">
-            <h2>Music</h2>
-            <h4>Search for the best music</h4>
+            <h2>Музыка</h2>
+            <h4>Прослушать музыкальные группы</h4>
         </div>
     </div>
 
@@ -481,8 +481,8 @@ use \yii\helpers\Url;
     <div class="artists-search bg-img bg-overlay2 wow fadeInUp" data-wow-delay="600ms" style="background-image: url(img/bg-img/bg-1.jpg);">
         <!-- Content -->
         <div class="music-search-content">
-            <h2>Artists</h2>
-            <h4>Search for the best artists</h4>
+            <h2>Актеры</h2>
+            <h4>Поиск любимых актеров</h4>
         </div>
     </div>
 </div>

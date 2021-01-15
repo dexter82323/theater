@@ -60,7 +60,7 @@ echo Nav::widget([
         ['label'=>'Труппа','url'=>['main/rep']],
         ['label'=>'Репертуар','url'=>['main/rep']],
         ['label' => 'Музыканты', 'url' => ['/site/contact']],
-        ['label'=>'Управлять','url'=>['/site/about'],'visible'=>Yii::$app->user->identity->role =="Admin"],
+        ['label'=>'Управлять','url'=>['/admin/default/index'],'visible'=>Yii::$app->user->identity->role =="Admin"],
         Yii::$app->user->isGuest ? (
         ['label' => 'Вход', 'url' => ['/site/login']]
         ) : (
@@ -104,7 +104,7 @@ NavBar::end();
                 <div class="footer-widget-area mb-50">
                     <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
                     <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            Ростовский академический театр драмы им.Максима Горького</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
